@@ -19,6 +19,20 @@
           >导航站</router-link
         >
       </a-menu-item>
+      <a-sub-menu key="tools">
+        <template #icon>
+          <appstore-outlined />
+        </template>
+        <template #title>小工具</template>
+        <a-menu-item key="tools:1">
+          <router-link
+            :to="{
+              path: '/canvas-sign',
+            }"
+            >画布签名</router-link
+          >
+        </a-menu-item>
+      </a-sub-menu>
       <a-menu-item key="home">
         <template #icon>
           <home-outlined />
@@ -53,6 +67,7 @@ import {
   StarOutlined,
   SendOutlined,
   HomeOutlined,
+  AppstoreOutlined,
 } from "@ant-design/icons-vue";
 import { RouterLink, useRoute } from "vue-router";
 import logo from "@/assets/img/logo.png";
@@ -65,6 +80,9 @@ watchEffect(() => {
       break;
     case "/navigation":
       current.value = ["navigation-site"];
+      break;
+    case "/canvas-sign":
+      current.value = ["tools:1"];
       break;
     default:
       current.value = ["index"];
@@ -79,11 +97,22 @@ watchEffect(() => {
     background: $theme-color;
     &.ant-menu-horizontal {
       border-bottom: none;
-      & > .ant-menu-item {
+      & > .ant-menu-item,
+      & > .ant-menu-submenu {
         &.ant-menu-item-selected,
         &:hover {
           color: white;
           a {
+            color: inherit;
+          }
+        }
+        &.ant-menu-submenu-selected,
+        &.ant-menu-submenu-open,
+        &.ant-menu-submenu-active,
+        &:hover {
+          color: white;
+          a,
+          .ant-menu-submenu-title {
             color: inherit;
           }
         }

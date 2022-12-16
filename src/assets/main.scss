@@ -8,5 +8,11 @@
     &>.ant-layout-header{
       background: $theme-color;
     }
+    &>.ant-layout-content{
+      overflow: auto;
+      // @include beauty-scrollbar;
+    }
   }
 }
+// 滚动条美化
+@include beauty-scrollbar();

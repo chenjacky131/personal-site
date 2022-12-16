@@ -28,5 +28,5 @@ export default defineConfig({
       },
     },
   },
-  base: '/navigation'
+  base: "/navigation",
 });

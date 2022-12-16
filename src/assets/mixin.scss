@@ -1,2 +1,21 @@
 $theme-color: #03a9f4;
 $active-text-color: #ffeb3b;
+// 滚动样式
+@mixin beauty-scrollbar() {
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 0.1vh;
+    height: 1vh;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgba(13, 31, 66, 0.5);
+    border-radius: 0.2vh;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 1vh;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #333;
+  }
+}

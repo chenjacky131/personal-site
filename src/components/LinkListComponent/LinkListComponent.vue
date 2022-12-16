@@ -12,9 +12,13 @@
 </template>
 <script lang="ts" setup>
 import PlaceholderImg from "@/assets/img/link-logo/placeholder-img.png";
-const props = defineProps({
-  linkObj: Object,
-});
+const props = defineProps<{
+  linkObj: {
+    image?: typeof PlaceholderImg;
+    title: string;
+    link: string;
+  };
+}>();
 </script>
 <style lang="scss" scoped>
 .link-list-item {

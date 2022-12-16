@@ -14,6 +14,11 @@ const router = createRouter({
       name: "navigation",
       component: () => import("@/views/NavigationView.vue"),
     },
+    {
+      path: "/canvas-sign",
+      name: "canvas-sign",
+      component: () => import("@/views/CanvasSignView.vue"),
+    },
   ],
 });
 

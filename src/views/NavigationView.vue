@@ -1,53 +1,67 @@
 <template>
   <div class="wrap">
     <MyCardComponent title="常用">
-      <LinkListComponent
-        v-for="(item, index) in commonLinks"
-        :key="index"
-        :link-obj="item"
-      />
+      <template #content>
+        <LinkListComponent
+          v-for="(item, index) in commonLinks"
+          :key="index"
+          :link-obj="item"
+        />
+      </template>
     </MyCardComponent>
     <MyCardComponent title="前端基础">
-      <LinkListComponent
-        v-for="(item, index) in htmlCssJavascriptLinks"
-        :key="index"
-        :link-obj="item"
-      />
+      <template #content>
+        <LinkListComponent
+          v-for="(item, index) in htmlCssJavascriptLinks"
+          :key="index"
+          :link-obj="item"
+        />
+      </template>
     </MyCardComponent>
     <MyCardComponent title="项目相关">
-      <LinkListComponent
-        v-for="(item, index) in projectLinks"
-        :key="index"
-        :link-obj="item"
-      />
+      <template #content>
+        <LinkListComponent
+          v-for="(item, index) in projectLinks"
+          :key="index"
+          :link-obj="item"
+        />
+      </template>
     </MyCardComponent>
     <MyCardComponent title="框架、库、工具文档">
-      <LinkListComponent
-        v-for="(item, index) in frameToolLinks"
-        :key="index"
-        :link-obj="item"
-      />
+      <template #content>
+        <LinkListComponent
+          v-for="(item, index) in frameToolLinks"
+          :key="index"
+          :link-obj="item"
+        />
+      </template>
     </MyCardComponent>
     <MyCardComponent title="在线工具">
-      <LinkListComponent
-        v-for="(item, index) in onlineToolLinks"
-        :key="index"
-        :link-obj="item"
-      />
+      <template #content>
+        <LinkListComponent
+          v-for="(item, index) in onlineToolLinks"
+          :key="index"
+          :link-obj="item"
+        />
+      </template>
     </MyCardComponent>
     <MyCardComponent title="社区、资讯">
-      <LinkListComponent
-        v-for="(item, index) in communityLinks"
-        :key="index"
-        :link-obj="item"
-      />
+      <template #content>
+        <LinkListComponent
+          v-for="(item, index) in communityLinks"
+          :key="index"
+          :link-obj="item"
+        />
+      </template>
     </MyCardComponent>
     <MyCardComponent title="在线服务">
-      <LinkListComponent
-        v-for="(item, index) in onlineServiceLinks"
-        :key="index"
-        :link-obj="item"
-      />
+      <template #content>
+        <LinkListComponent
+          v-for="(item, index) in onlineServiceLinks"
+          :key="index"
+          :link-obj="item"
+        />
+      </template>
     </MyCardComponent>
   </div>
 </template>

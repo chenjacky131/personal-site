@@ -2,7 +2,7 @@
   <div class="wrap card-item">
     <div class="title">{{ props.title }}</div>
     <div class="content">
-      <slot />
+      <slot name="content" />
     </div>
   </div>
 </template>
