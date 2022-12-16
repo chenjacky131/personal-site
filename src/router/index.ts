@@ -17,7 +17,12 @@ const router = createRouter({
     {
       path: "/canvas-sign",
       name: "canvas-sign",
-      component: () => import("@/views/CanvasSignView.vue"),
+      component: () => import("@/views/Tools/CanvasSignView.vue"),
+    },
+    {
+      path: "/color-picker",
+      name: "color-picker",
+      component: () => import("@/views/Tools/ColorPickerView.vue"),
     },
   ],
 });

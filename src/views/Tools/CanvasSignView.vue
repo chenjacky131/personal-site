@@ -9,7 +9,7 @@
         <button @click="increaseLineWidth">加粗画笔</button>
         <button @click="decreaseLineWidth">减细画笔</button>
         <button @click="resetLineWidth">复原画笔尺寸</button>
-      </div>      
+      </div>
     </div>
   </div>
 </template>
@@ -29,8 +29,10 @@ const init = (event: MouseEvent) => {
   const { offsetX, offsetY } = event;
   ctx.value!.strokeStyle = config.strokeStyle;
   ctx.value!.lineWidth = config.lineWidth;
-  ctx.value!.lineCap = <CanvasLineCap>config.lineCap;
-  ctx.value!.lineJoin = <CanvasLineJoin>config.lineJoin;
+  // eslint-disable-next-line no-undef
+  ctx.value!.lineCap = config.lineCap as CanvasLineCap;
+  // eslint-disable-next-line no-undef
+  ctx.value!.lineJoin = config.lineJoin as CanvasLineJoin;
   ctx.value!.beginPath();
   ctx.value!.moveTo(offsetX, offsetY);
   window.addEventListener("mousemove", draw);
@@ -67,17 +69,17 @@ const resetLineWidth = () => {
   config.lineWidth = 5;
 };
 onMounted(() => {
-  canvas.value = <HTMLCanvasElement>document.querySelector("#sign-canvas");
+  canvas.value = document.querySelector("#sign-canvas") as HTMLCanvasElement;
   canvas.value!.width = config.width;
   canvas.value!.height = config.height;
-  ctx.value = <CanvasRenderingContext2D>canvas.value!.getContext("2d");
+  ctx.value = canvas.value!.getContext("2d") as CanvasRenderingContext2D;
   ctx.value!.fillStyle = "transparent";
   ctx.value!.clearRect(0, 0, config.width, config.height);
   window.addEventListener("mousedown", init);
 });
 </script>
 <style lang="scss" scoped>
-.sign-canvas-wrap{
+.sign-canvas-wrap {
   display: flex;
   align-items: center;
   justify-content: center;

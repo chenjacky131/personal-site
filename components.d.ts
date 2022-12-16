@@ -24,5 +24,7 @@ declare module '@vue/runtime-core' {
     MyCardComponent: typeof import('./src/components/MyCardComponent/MyCardComponent.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    VueColor: typeof import("./src/components/VueColor.vue")["default"]
+    VueColorComponent: typeof import('./src/components/VueColorComponent.vue')['default']
   }
 }

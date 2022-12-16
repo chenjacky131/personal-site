@@ -24,12 +24,20 @@
           <appstore-outlined />
         </template>
         <template #title>小工具</template>
-        <a-menu-item key="tools:1">
+        <a-menu-item key="tools:canvas-sign">
           <router-link
             :to="{
               path: '/canvas-sign',
             }"
             >画布签名</router-link
+          >
+        </a-menu-item>
+        <a-menu-item key="tools:color-picker">
+          <router-link
+            :to="{
+              path: '/color-picker',
+            }"
+            >颜色拾取器</router-link
           >
         </a-menu-item>
       </a-sub-menu>
@@ -82,7 +90,10 @@ watchEffect(() => {
       current.value = ["navigation-site"];
       break;
     case "/canvas-sign":
-      current.value = ["tools:1"];
+      current.value = ["tools:canvas-sign"];
+      break;
+    case "/color-picker":
+      current.value = ["tools:color-picker"];
       break;
     default:
       current.value = ["index"];

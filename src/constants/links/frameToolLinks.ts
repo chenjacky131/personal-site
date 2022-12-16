@@ -25,6 +25,7 @@ import SnapSvgImg from "@/assets/img/link-logo/snap-svg.png";
 import JenkinsImg from "@/assets/img/link-logo/jenkins.png";
 import SpiderFlowImg from "@/assets/img/link-logo/spider-flow.png";
 import TaroImg from "@/assets/img/link-logo/taro.png";
+import PiniaImg from "@/assets/img/link-logo/pinia.png";
 export const frameToolLinks = [
   {
     image: IviewUiImg,
@@ -85,6 +86,11 @@ export const frameToolLinks = [
     image: VueImg,
     title: "Vuex - Vue的状态管理库",
     link: "https://vuex.vuejs.org/zh/",
+  },
+  {
+    image: PiniaImg,
+    title: "Pinia - 值得你喜欢的Vue Store",
+    link: "https://pinia.vuejs.org/zh/",
   },
   {
     image: VueImg,
