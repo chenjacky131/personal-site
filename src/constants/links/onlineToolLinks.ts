@@ -20,6 +20,8 @@ import WebAppsImg from "@/assets/img/link-logo/web-apps.png";
 import VsCodeImg from "@/assets/img/link-logo/vscode.png";
 import SVGEditorImg from "@/assets/img/link-logo/svg-editor.png";
 import IP138Img from "@/assets/img/link-logo/ip138.png";
+import UNPKGImg from "@/assets/img/link-logo/unpkg.png";
+import codepenImg from "@/assets/img/link-logo/codepen.png";
 export const onlineToolLinks = [
   {
     image: AconvertImg,
@@ -130,5 +132,15 @@ export const onlineToolLinks = [
     image: IP138Img,
     title: "IP查询",
     link: "https://www.ip138.com/",
+  },
+  {
+    image: UNPKGImg,
+    title: "UNPKG-免费cdn",
+    link: "https://unpkg.com/",
+  },
+  {
+    image: codepenImg,
+    title: "codepen-在线代码编辑器",
+    link: "https://codepen.io/",
   },
 ];

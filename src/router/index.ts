@@ -24,6 +24,11 @@ const router = createRouter({
       name: "color-picker",
       component: () => import("@/views/Tools/ColorPickerView.vue"),
     },
+    {
+      path: "/guess-game",
+      name: "guess-game",
+      component: () => import("@/views/Tools/GuessNumberGameView.vue"),
+    },
   ],
 });
 

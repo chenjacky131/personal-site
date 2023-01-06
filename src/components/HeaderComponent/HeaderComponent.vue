@@ -40,6 +40,14 @@
             >颜色拾取器</router-link
           >
         </a-menu-item>
+        <a-menu-item key="tools:guess-game">
+          <router-link
+            :to="{
+              path: '/guess-game',
+            }"
+            >猜字游戏</router-link
+          >
+        </a-menu-item>
       </a-sub-menu>
       <a-menu-item key="home">
         <template #icon>
