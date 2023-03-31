@@ -66,3 +66,7 @@ npm run test:e2e
 ```sh
 npm run lint
 ```
+### 部署路径
+```sh
+/usr/share/nginx/html/navigation
+```

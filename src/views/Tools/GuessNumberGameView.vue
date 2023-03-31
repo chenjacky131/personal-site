@@ -19,14 +19,14 @@
     <button v-if="disableMark" @click="restart">重新开始</button>
   </div>
 </template>
-<script setup>
+<script lang="ts" setup>
 import { ref, computed, onMounted, nextTick } from "vue";
-const rightNumber = ref(Math.floor(Math.random() * 100 + 1));
+const rightNumber = ref<number>(Math.floor(Math.random() * 100 + 1));
 const rightOrWrong = ref("");
-const inputNumber = ref("");
-const inputResult = ref([]);
+const inputNumber = ref<number | string>("");
+const inputResult = ref<number[]>([]);
 const gameOver = ref(false);
-const inputNumberRef = ref(null);
+const inputNumberRef = ref<HTMLInputElement | null>(null);
 const handleGuess = () => {
   focusInput();
   if (inputNumber.value > rightNumber.value) {
@@ -56,7 +56,7 @@ const disableMark = computed(() => {
   return rightOrWrong.value === "正确" || gameOver.value;
 });
 const focusInput = () => {
-  inputNumberRef.value.focus();
+  (inputNumberRef.value as HTMLInputElement).focus();
 };
 onMounted(() => {
   focusInput();
