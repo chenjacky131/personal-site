@@ -22,6 +22,7 @@ import SVGEditorImg from "@/assets/img/link-logo/svg-editor.png";
 import IP138Img from "@/assets/img/link-logo/ip138.png";
 import UNPKGImg from "@/assets/img/link-logo/unpkg.png";
 import codepenImg from "@/assets/img/link-logo/codepen.png";
+import photoShopImg from "@/assets/img/link-logo/photoshop.png";
 export const onlineToolLinks = [
   {
     image: AconvertImg,
@@ -143,4 +144,10 @@ export const onlineToolLinks = [
     title: "codepen-在线代码编辑器",
     link: "https://codepen.io/",
   },
+  {
+    image: photoShopImg,
+    title: "WebPS软件网页版-ps在线图片处理工具",
+    link: "https://www.webps.com/ps/sources/index.html",
+  },
+  
 ];
