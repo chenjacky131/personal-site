@@ -73,18 +73,6 @@
           博客
         </a>
       </a-menu-item>
-      <a-menu-item key="jenkins">
-        <template #icon>
-          <cloud-upload-outlined />
-        </template>
-        <a
-          href="http://116.205.172.255:8080/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Jenkins
-        </a>
-      </a-menu-item>
     </a-menu>
   </div>
 </template>
@@ -96,7 +84,6 @@ import {
   SendOutlined,
   HomeOutlined,
   AppstoreOutlined,
-  CloudUploadOutlined
 } from "@ant-design/icons-vue";
 import { RouterLink, useRoute } from "vue-router";
 import logo from "@/assets/img/logo.png";
