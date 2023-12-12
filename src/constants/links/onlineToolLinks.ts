@@ -21,8 +21,13 @@ import VsCodeImg from "@/assets/img/link-logo/vscode.png";
 import SVGEditorImg from "@/assets/img/link-logo/svg-editor.png";
 import IP138Img from "@/assets/img/link-logo/ip138.png";
 import UNPKGImg from "@/assets/img/link-logo/unpkg.png";
+import bootCdnImg from "@/assets/img/link-logo/boot-cdn.png";
 import codepenImg from "@/assets/img/link-logo/codepen.png";
 import photoShopImg from "@/assets/img/link-logo/photoshop.png";
+import checkIpImg from "@/assets/img/link-logo/check-ip.png";
+import pythonImg from "@/assets/img/link-logo/python.png";
+import CroppedAihubImg from "@/assets/img/link-logo/cropped-aihub.png";
+import RestFoxImg from "@/assets/img/link-logo/restfox.png";
 export const onlineToolLinks = [
   {
     image: AconvertImg,
@@ -136,8 +141,13 @@ export const onlineToolLinks = [
   },
   {
     image: UNPKGImg,
-    title: "UNPKG-免费cdn",
+    title: "UNPKG-免费cdn(已被墙)",
     link: "https://unpkg.com/",
+  },
+  {
+    image: bootCdnImg,
+    title: "Bootstrap 中文网开源项目免费 CDN 加速服务",
+    link: "https://www.bootcdn.cn/",
   },
   {
     image: codepenImg,
@@ -149,5 +159,24 @@ export const onlineToolLinks = [
     title: "WebPS软件网页版-ps在线图片处理工具",
     link: "https://www.webps.com/ps/sources/index.html",
   },
-  
+  {
+    image: checkIpImg,
+    title: "查看我的 IP 地址",
+    link: "https://ipcheck.ing/",
+  },
+  {
+    image: pythonImg,
+    title: "Python在线编译",
+    link: "https://pythononlinecompiler.com/",
+  },
+  {
+    image: CroppedAihubImg,
+    title: "AIHub - 免费齐全的AI工具箱",
+    link: "https://www.aihub.cn/",
+  },
+  {
+    image: RestFoxImg,
+    title: "Restfox-Web端的PostMan",
+    link: "https://restfox.dev/",
+  },
 ];

@@ -14,6 +14,7 @@ import ZhangXinXuImg from "@/assets/img/link-logo/zhangxinxu.png";
 import RuanYiFengImg from "@/assets/img/link-logo/ruanyifeng.png";
 import DcloudImg from "@/assets/img/link-logo/dcloud.png";
 import PexelsImg from "@/assets/img/link-logo/pexels.png";
+import YesIconImg from "@/assets/img/link-logo/yesicon.png";
 export const communityLinks = [
   {
     image: JueJinImg,
@@ -94,5 +95,10 @@ export const communityLinks = [
     image: SvgSilhImg,
     title: "免费SVG图像图标",
     link: "https://svgsilh.com/zh/",
+  },
+  {
+    image: YesIconImg,
+    title: "Yesicon - 精选全球高品质、开源、免费的矢量图标库",
+    link: "https://yesicon.app/",
   },
 ];

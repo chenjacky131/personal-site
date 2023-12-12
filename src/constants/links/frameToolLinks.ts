@@ -2,6 +2,8 @@ import IviewUiImg from "@/assets/img/link-logo/iviewui.png";
 import ElementPlusImg from "@/assets/img/link-logo/element-plus.png";
 import LeafletImg from "@/assets/img/link-logo/leaflet.png";
 import MapBoxImg from "@/assets/img/link-logo/map-box.png";
+import MapLibreImg from "@/assets/img/link-logo/maplibre.png";
+import TurfImg from "@/assets/img/link-logo/turf.png";
 import AntDesignVueImg from "@/assets/img/link-logo/ant-design-vue.png";
 import AntVImg from "@/assets/img/link-logo/antv.png";
 import EchartsImg from "@/assets/img/link-logo/echarts.png";
@@ -26,6 +28,9 @@ import JenkinsImg from "@/assets/img/link-logo/jenkins.png";
 import SpiderFlowImg from "@/assets/img/link-logo/spider-flow.png";
 import TaroImg from "@/assets/img/link-logo/taro.png";
 import PiniaImg from "@/assets/img/link-logo/pinia.png";
+import VueGridLayoutImg from "@/assets/img/link-logo/vue-grid-layout.png";
+import TerraDrawImg from "@/assets/img/link-logo/terra-draw.png";
+import ThreeJsCnImg from "@/assets/img/link-logo/three-js-cn.png";
 export const frameToolLinks = [
   {
     image: IviewUiImg,
@@ -61,6 +66,16 @@ export const frameToolLinks = [
     image: MapBoxImg,
     title: "Mapbox-地图库",
     link: "https://docs.mapbox.com/api/maps/",
+  },
+  {
+    image: MapLibreImg,
+    title: "Maplibre-地图库",
+    link: "https://maplibre.org/",
+  },
+  {
+    image: TurfImg,
+    title: "Turf.js-Advanced Geospatial Analysis",
+    link: "https://turfjs.org/",
   },
   {
     image: AntVImg,
@@ -190,5 +205,20 @@ export const frameToolLinks = [
     image: SpiderFlowImg,
     title: "Spider Flow - 一个无需写代码的爬虫平台",
     link: "https://www.spiderflow.org/",
+  },
+  {
+    image: VueGridLayoutImg,
+    title: "Vue Grid Layout -️ 适用Vue.js的栅格布局系统",
+    link: "https://jbaysolutions.github.io/vue-grid-layout/zh/",
+  },
+  {
+    image: TerraDrawImg,
+    title: "Terra Draw - 地图图形绘制工具，支持mapbox、maplibre、googleMaps、openLayers和leaflet",
+    link: "https://terradraw.io/",
+  },
+  {
+    image: ThreeJsCnImg,
+    title: "Three.js中文网",
+    link: "http://www.webgl3d.cn/",
   },
 ];
