@@ -49,24 +49,12 @@
           >
         </a-menu-item>
       </a-sub-menu>
-      <a-menu-item key="home">
-        <template #icon>
-          <home-outlined />
-        </template>
-        <a
-          href="http://www.jackchen7003.top"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          主页
-        </a>
-      </a-menu-item>
       <a-menu-item key="blog">
         <template #icon>
           <send-outlined />
         </template>
         <a
-          href="http://blog.jackchen7003.top"
+          href="https://chenjacky131.github.io/blogs/"
           target="_blank"
           rel="noopener noreferrer"
         >
