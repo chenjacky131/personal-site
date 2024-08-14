@@ -28,6 +28,7 @@ import checkIpImg from "@/assets/img/link-logo/check-ip.png";
 import pythonImg from "@/assets/img/link-logo/python.png";
 import CroppedAihubImg from "@/assets/img/link-logo/cropped-aihub.png";
 import RestFoxImg from "@/assets/img/link-logo/restfox.png";
+import DesmosImg from "@/assets/img/link-logo/desmos.png";
 export const onlineToolLinks = [
   {
     image: AconvertImg,
@@ -178,5 +179,10 @@ export const onlineToolLinks = [
     image: RestFoxImg,
     title: "Restfox-Web端的PostMan",
     link: "https://restfox.dev/",
+  },
+  {
+    image: DesmosImg,
+    title: "Desmos | 图形计算器",
+    link: "https://www.desmos.com/calculator?lang=zh-CN",
   },
 ];

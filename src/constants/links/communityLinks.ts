@@ -6,7 +6,6 @@ import StackOverflowImg from "@/assets/img/link-logo/stack-overflow.png";
 import SegmentFaultImg from "@/assets/img/link-logo/segment-fault.png";
 import CSDNImg from "@/assets/img/link-logo/csdn.png";
 import ChartGPTImg from "@/assets/img/link-logo/chart-gpt.png";
-import TianyaImg from "@/assets/img/link-logo/tian-ya.png";
 import TophubImg from "@/assets/img/link-logo/top-hub.png";
 import JiaKuImg from "@/assets/img/link-logo/jia-ku.png";
 import SvgSilhImg from "@/assets/img/link-logo/svg-silh.png";
@@ -70,11 +69,6 @@ export const communityLinks = [
     image: RuanYiFengImg,
     title: "阮一峰",
     link: "http://www.ruanyifeng.com/",
-  },
-  {
-    image: TianyaImg,
-    title: "天涯论坛-全球华人网上家园",
-    link: "https://bbs.tianya.cn/",
   },
   {
     image: TophubImg,
