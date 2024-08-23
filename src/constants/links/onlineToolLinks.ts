@@ -29,6 +29,7 @@ import pythonImg from "@/assets/img/link-logo/python.png";
 import CroppedAihubImg from "@/assets/img/link-logo/cropped-aihub.png";
 import RestFoxImg from "@/assets/img/link-logo/restfox.png";
 import DesmosImg from "@/assets/img/link-logo/desmos.png";
+import FaviconImg from "@/assets/img/link-logo/favicon.png";
 export const onlineToolLinks = [
   {
     image: AconvertImg,
@@ -184,5 +185,10 @@ export const onlineToolLinks = [
     image: DesmosImg,
     title: "Desmos | 图形计算器",
     link: "https://www.desmos.com/calculator?lang=zh-CN",
+  },
+  {
+    image: FaviconImg,
+    title: "Favicon.im: Instant Website Favicon Fetcher",
+    link: "https://favicon.im/",
   },
 ];
