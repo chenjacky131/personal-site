@@ -30,6 +30,7 @@ import CroppedAihubImg from "@/assets/img/link-logo/cropped-aihub.png";
 import RestFoxImg from "@/assets/img/link-logo/restfox.png";
 import DesmosImg from "@/assets/img/link-logo/desmos.png";
 import FaviconImg from "@/assets/img/link-logo/favicon.png";
+import BJsonImg from "@/assets/img/link-logo/b-json.png";
 export const onlineToolLinks = [
   {
     image: AconvertImg,
@@ -190,5 +191,10 @@ export const onlineToolLinks = [
     image: FaviconImg,
     title: "Favicon.im: Instant Website Favicon Fetcher",
     link: "https://favicon.im/",
+  },
+  {
+    image: BJsonImg,
+    title: "在线简体,繁体,火星文转换工具-BeJSON.com",
+    link: "https://www.bejson.com/",
   },
 ];
