@@ -17,8 +17,6 @@ import YesIconImg from "@/assets/img/link-logo/yesicon.png";
 import WikihowImg from "@/assets/img/link-logo/wikihow.png";
 import JandanImg from "@/assets/img/link-logo/jandan.png";
 import CupFoxImg from "@/assets/img/link-logo/cup-fox.png";
-import VjshiImg from "@/assets/img/link-logo/vjshi.png";
-import FiveHunderPxImg from "@/assets/img/link-logo/500px.png";
 export const communityLinks = [
   {
     image: JueJinImg,
@@ -114,15 +112,5 @@ export const communityLinks = [
     image: CupFoxImg,
     title: "茶杯狐 - 片荒剧荒就来茶杯狐",
     link: "https://cupfox.love/",
-  },
-  {
-    image: VjshiImg,
-    title: "光厂(VJ师网)_正版视频素材下载",
-    link: "https://www.vjshi.com/",
-  },
-  {
-    image: FiveHunderPxImg,
-    title: "视觉500px摄影师社区",
-    link: "https://500px.com.cn/community/index.html",
   },
 ];

@@ -31,7 +31,6 @@ import RestFoxImg from "@/assets/img/link-logo/restfox.png";
 import DesmosImg from "@/assets/img/link-logo/desmos.png";
 import FaviconImg from "@/assets/img/link-logo/favicon.png";
 import BJsonImg from "@/assets/img/link-logo/b-json.png";
-import JsontrImg from "@/assets/img/link-logo/jsontr.png";
 import Pdf24Img from "@/assets/img/link-logo/pdf24.png";
 import _123AppsImg from "@/assets/img/link-logo/123apps.png";
 import PearocrImg from "@/assets/img/link-logo/pearocr.png";
@@ -203,11 +202,6 @@ export const onlineToolLinks = [
     image: BJsonImg,
     title: "在线简体,繁体,火星文转换工具-BeJSON.com",
     link: "https://www.bejson.com/",
-  },
-  {
-    image: JsontrImg,
-    title: "JSON 树",
-    link: "https://jsontr.ee/",
   },
   {
     image: Pdf24Img,
