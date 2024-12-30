@@ -1,11 +1,11 @@
 <template>
-  <div class="link-list-item">
+  <div class="link-list-item" @click="handleClick(props.linkObj?.link)">
     <img
       class="link-img"
       :src="props.linkObj?.image ? props.linkObj?.image : PlaceholderImg"
       :alt="props.linkObj?.title"
     />
-    <a class="link" :href="props.linkObj?.link" target="_blank">{{
+    <a class="link" href="javascript:;" target="_blank">{{
       props.linkObj?.title
     }}</a>
   </div>
@@ -19,6 +19,11 @@ const props = defineProps<{
     link: string;
   };
 }>();
+const handleClick = (link: string) => {
+  if (link) {
+    window.open(link, "_blank");
+  }
+};
 </script>
 <style lang="scss" scoped>
 .link-list-item {
@@ -29,6 +34,7 @@ const props = defineProps<{
   border-radius: 4px;
   margin-right: 10px;
   width: 30%;
+  cursor: pointer;
   .link-img {
     width: 16px;
     height: 16px;
