@@ -5,9 +5,7 @@
       :src="props.linkObj?.image ? props.linkObj?.image : PlaceholderImg"
       :alt="props.linkObj?.title"
     />
-    <a class="link" href="javascript:;" target="_blank">{{
-      props.linkObj?.title
-    }}</a>
+    <a class="link" href="javascript:void(0);">{{ props.linkObj?.title }}</a>
   </div>
 </template>
 <script lang="ts" setup>

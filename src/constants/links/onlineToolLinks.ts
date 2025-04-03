@@ -18,8 +18,10 @@ import OSCHINAImg from "@/assets/img/link-logo/oschina.png";
 import GeoJsonImg from "@/assets/img/link-logo/geo-json.png";
 import VsCodeImg from "@/assets/img/link-logo/vscode.png";
 import SVGEditorImg from "@/assets/img/link-logo/svg-editor.png";
-import IP138Img from "@/assets/img/link-logo/ip138.png";
+import IP1Img from "@/assets/img/link-logo/ip1.png";
 import UNPKGImg from "@/assets/img/link-logo/unpkg.png";
+import ByteDanceImg from "@/assets/img/link-logo/bytedance.png";
+import StaticFileImg from "@/assets/img/link-logo/staticfile.png";
 import bootCdnImg from "@/assets/img/link-logo/boot-cdn.png";
 import JsdelivrImg from "@/assets/img/link-logo/jsdelivr.png";
 import codepenImg from "@/assets/img/link-logo/codepen.png";
@@ -38,6 +40,7 @@ import PearocrImg from "@/assets/img/link-logo/pearocr.png";
 import AThousoudToolImg from "@/assets/img/link-logo/1000tool.png";
 import DocsmallImg from "@/assets/img/link-logo/docsmall.png";
 import SketchfabImg from "@/assets/img/link-logo/sketchfab.png";
+import TempEmailImg from "@/assets/img/link-logo/temp-email.png";
 export const onlineToolLinks = [
   {
     image: AconvertImg,
@@ -140,14 +143,24 @@ export const onlineToolLinks = [
     link: "https://c.runoob.com/more/svgeditor/",
   },
   {
-    image: IP138Img,
-    title: "IP查询",
-    link: "https://www.ip138.com/",
+    image: IP1Img,
+    title: "IP侦探 ｜ IP查询归属地",
+    link: "https://ip.aolifu.org/",
   },
   {
     image: UNPKGImg,
     title: "UNPKG-免费cdn(已被墙)",
     link: "https://unpkg.com/",
+  },
+  {
+    image: ByteDanceImg,
+    title: "字节跳动静态资源公共库",
+    link: "https://cdn.bytedance.com/",
+  },
+  {
+    image: StaticFileImg,
+    title: "Staticfile CDN - 七牛云提供支持",
+    link: "https://www.staticfile.net/",
   },
   {
     image: bootCdnImg,
@@ -238,5 +251,10 @@ export const onlineToolLinks = [
     image: SketchfabImg,
     title: "Sketchfab - 3D 模型下载",
     link: "https://sketchfab.com/",
+  },
+  {
+    image: TempEmailImg,
+    title: "临时邮箱，10分钟邮箱",
+    link: "https://www.linshi-email.com/",
   },
 ];

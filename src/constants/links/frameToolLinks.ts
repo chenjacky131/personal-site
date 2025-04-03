@@ -55,7 +55,7 @@ export const frameToolLinks = [
   {
     image: VantImg,
     title: "Vant 3 - vue和小程序的移动端组件",
-    link: "https://vant-contrib.gitee.io/vant/v3/#/zh-CN",
+    link: "https://vant-ui.github.io/",
   },
   {
     image: LeafletImg,
