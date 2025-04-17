@@ -1,5 +1,6 @@
 import JueJinImg from "@/assets/img/link-logo/jue-jin.png";
 import ZhiHuImg from "@/assets/img/link-logo/zhi-hu.png";
+import DouBanImg from "@/assets/img/link-logo/douban.png";
 import JianShuImg from "@/assets/img/link-logo/jian-shu.png";
 import NpmImg from "@/assets/img/link-logo/npm.png";
 import StackOverflowImg from "@/assets/img/link-logo/stack-overflow.png";
@@ -29,6 +30,11 @@ export const communityLinks = [
     image: ZhiHuImg,
     title: "知乎",
     link: "https://www.zhihu.com/",
+  },
+  {
+    image: DouBanImg,
+    title: "豆瓣",
+    link: "https://www.douban.com/explore/",
   },
   {
     image: NpmImg,
