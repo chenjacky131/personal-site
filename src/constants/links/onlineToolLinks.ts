@@ -12,6 +12,7 @@ import DevToolImg from "@/assets/img/link-logo/devtool.png";
 import YuQueImg from "@/assets/img/link-logo/yuque.png";
 import IconFontImg from "@/assets/img/link-logo/iconfont.png";
 import XiaZaiBaImg from "@/assets/img/link-logo/xiazaiba.png";
+import HjrjyImg from "@/assets/img/link-logo/hjrjy.png";
 import BitBugImg from "@/assets/img/link-logo/bitbug.png";
 import OnlineWebsocketImg from "@/assets/img/link-logo/online-websocket.png";
 import OSCHINAImg from "@/assets/img/link-logo/oschina.png";
@@ -111,6 +112,11 @@ export const onlineToolLinks = [
     image: XiaZaiBaImg,
     title: "下载吧",
     link: "https://www.xiazaiba.com/",
+  },
+  {
+    image: HjrjyImg,
+    title: "华军软件园",
+    link: "https://www.onlinedown.net/",
   },
   {
     image: BitBugImg,

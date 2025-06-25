@@ -1,14 +1,22 @@
 import JueJinImg from "@/assets/img/link-logo/jue-jin.png";
 import ZhiHuImg from "@/assets/img/link-logo/zhi-hu.png";
+import V2exImg from "@/assets/img/link-logo/v2ex.png";
+import RedditImg from "@/assets/img/link-logo/reddit.png";
+import DevImg from "@/assets/img/link-logo/dev.png";
+import MediumImg from "@/assets/img/link-logo/medium.png";
+import BkyImg from "@/assets/img/link-logo/bky.png";
+import HackerNewsImg from "@/assets/img/link-logo/hacker-news.png";
+import InfoqImg from "@/assets/img/link-logo/infoq.png";
 import DouBanImg from "@/assets/img/link-logo/douban.png";
 import JianShuImg from "@/assets/img/link-logo/jian-shu.png";
 import NpmImg from "@/assets/img/link-logo/npm.png";
 import StackOverflowImg from "@/assets/img/link-logo/stack-overflow.png";
 import SegmentFaultImg from "@/assets/img/link-logo/segment-fault.png";
 import CSDNImg from "@/assets/img/link-logo/csdn.png";
-import ChartGPTImg from "@/assets/img/link-logo/chart-gpt.png";
 import TophubImg from "@/assets/img/link-logo/top-hub.png";
+import NewsNowImg from "@/assets/img/link-logo/news-now.png";
 import JiaKuImg from "@/assets/img/link-logo/jia-ku.png";
+import MobanwangImg from "@/assets/img/link-logo/mobanwang.png";
 import SvgSilhImg from "@/assets/img/link-logo/svg-silh.png";
 import ZhangXinXuImg from "@/assets/img/link-logo/zhangxinxu.png";
 import RuanYiFengImg from "@/assets/img/link-logo/ruanyifeng.png";
@@ -30,6 +38,41 @@ export const communityLinks = [
     image: ZhiHuImg,
     title: "知乎",
     link: "https://www.zhihu.com/",
+  },
+  {
+    image: V2exImg,
+    title: "Way To Explore",
+    link: "https://www.v2ex.com/",
+  },
+  {
+    image: RedditImg,
+    title: "Reddit",
+    link: "https://www.reddit.com/",
+  },
+  {
+    image: DevImg,
+    title: "Dev Community",
+    link: "https://dev.to/",
+  },
+  {
+    image: MediumImg,
+    title: "Medium",
+    link: "https://medium.com/",
+  },
+  {
+    image: BkyImg,
+    title: "博客园",
+    link: "https://www.cnblogs.com/",
+  },
+  {
+    image: HackerNewsImg,
+    title: "Hacker News",
+    link: "https://news.ycombinator.com/",
+  },
+  {
+    image: InfoqImg,
+    title: "Infoq",
+    link: "https://www.infoq.cn/",
   },
   {
     image: DouBanImg,
@@ -67,11 +110,6 @@ export const communityLinks = [
     link: "https://dcloud.io/",
   },
   {
-    image: ChartGPTImg,
-    title: "ChartGPT-聊天机器人",
-    link: "https://chat.openai.com/",
-  },
-  {
     image: ZhangXinXuImg,
     title: "张鑫旭个人空间",
     link: "https://www.zhangxinxu.com/",
@@ -87,9 +125,19 @@ export const communityLinks = [
     link: "https://tophub.today/",
   },
   {
+    image: NewsNowImg,
+    title: "News Now",
+    link: "https://newsnow.busiyi.world/",
+  },
+  {
     image: JiaKuImg,
     title: "佳库网-免费图片素材(去后缀下载)",
     link: "https://599ku.com/",
+  },
+  {
+    image: MobanwangImg,
+    title: "模板王-10000+HTML网站模板免费下载",
+    link: "https://www.mobanwang.com/",
   },
   {
     image: PexelsImg,

@@ -1,5 +1,4 @@
 import IviewUiImg from "@/assets/img/link-logo/iviewui.png";
-import ElementPlusImg from "@/assets/img/link-logo/element-plus.png";
 import LeafletImg from "@/assets/img/link-logo/leaflet.png";
 import MapBoxImg from "@/assets/img/link-logo/map-box.png";
 import MapLibreImg from "@/assets/img/link-logo/maplibre.png";
@@ -41,11 +40,6 @@ export const frameToolLinks = [
     image: AntDesignVueImg,
     title: "AntDesignVue",
     link: "https://www.antdv.com/components/overview-cn",
-  },
-  {
-    image: ElementPlusImg,
-    title: "ElementPlus-基于vue3的组件库",
-    link: "https://element-plus.gitee.io/zh-CN/",
   },
   {
     image: NutUIImg,
