@@ -48,6 +48,9 @@
             >猜字游戏</router-link
           >
         </a-menu-item>
+        <a-menu-item key="tools:intelligentn-map">
+          <a href="https://chenjacky131.github.io/threeDMap/dist/index.html#/" target="_blank">智能地图</a>
+        </a-menu-item>
       </a-sub-menu>
       <a-menu-item key="home">
         <template #icon>

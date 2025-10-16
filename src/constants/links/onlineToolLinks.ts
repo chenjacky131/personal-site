@@ -42,6 +42,11 @@ import AThousoudToolImg from "@/assets/img/link-logo/1000tool.png";
 import DocsmallImg from "@/assets/img/link-logo/docsmall.png";
 import SketchfabImg from "@/assets/img/link-logo/sketchfab.png";
 import TempEmailImg from "@/assets/img/link-logo/temp-email.png";
+import MockPlusImg from "@/assets/img/link-logo/mock-plus.png";
+import AnnasArchiveImg from "@/assets/img/link-logo/annas-archive.png";
+import QiuzitiImg from "@/assets/img/link-logo/qiuziti.png";
+
+
 export const onlineToolLinks = [
   {
     image: AconvertImg,
@@ -262,5 +267,20 @@ export const onlineToolLinks = [
     image: TempEmailImg,
     title: "临时邮箱，10分钟邮箱",
     link: "https://www.linshi-email.com/",
+  },
+  {
+    image: MockPlusImg,
+    title: "摹客，让设计和协作更快更简单",
+    link: "https://www.mockplus.cn/",
+  },
+  {
+    image: AnnasArchiveImg,
+    title: "安娜的档案-电子书库",
+    link: "https://zh.annas-archive.org/",
+  },
+  {
+    image: QiuzitiImg,
+    title: "WeChat Sans SS-Medium-免费字体下载-求字体网",
+    link: "https://www.qiuziti.com/download?id=c33f5de2194caba6ccc49e405002225b",
   },
 ];

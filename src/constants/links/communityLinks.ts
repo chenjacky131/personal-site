@@ -28,6 +28,8 @@ import JandanImg from "@/assets/img/link-logo/jandan.png";
 import CupFoxImg from "@/assets/img/link-logo/cup-fox.png";
 import VjshiImg from "@/assets/img/link-logo/vjshi.png";
 import FiveHunderPxImg from "@/assets/img/link-logo/500px.png";
+import MoonTvImg from "@/assets/img/link-logo/moon-tv.png";
+
 export const communityLinks = [
   {
     image: JueJinImg,
@@ -178,5 +180,10 @@ export const communityLinks = [
     image: FiveHunderPxImg,
     title: "视觉500px摄影师社区",
     link: "https://500px.com.cn/community/index.html",
+  },
+  {
+    image: MoonTvImg,
+    title: "MoonTV-影视聚合",
+    link: "https://moontv.vime50.com/",
   },
 ];
