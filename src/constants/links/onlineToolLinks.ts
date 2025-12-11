@@ -19,6 +19,7 @@ import OSCHINAImg from "@/assets/img/link-logo/oschina.png";
 import GeoJsonImg from "@/assets/img/link-logo/geo-json.png";
 import VsCodeImg from "@/assets/img/link-logo/vscode.png";
 import SVGEditorImg from "@/assets/img/link-logo/svg-editor.png";
+
 import IP1Img from "@/assets/img/link-logo/ip1.png";
 import UNPKGImg from "@/assets/img/link-logo/unpkg.png";
 import ByteDanceImg from "@/assets/img/link-logo/bytedance.png";
@@ -45,6 +46,8 @@ import TempEmailImg from "@/assets/img/link-logo/temp-email.png";
 import MockPlusImg from "@/assets/img/link-logo/mock-plus.png";
 import AnnasArchiveImg from "@/assets/img/link-logo/annas-archive.png";
 import QiuzitiImg from "@/assets/img/link-logo/qiuziti.png";
+import PngCompressionImg from "@/assets/img/link-logo/png-compression.png";
+
 
 
 export const onlineToolLinks = [
@@ -152,6 +155,11 @@ export const onlineToolLinks = [
     image: SVGEditorImg,
     title: "SVG在线编辑器",
     link: "https://c.runoob.com/more/svgeditor/",
+  },
+  {
+    image: SVGEditorImg,
+    title: "SVG 在线编辑器2",
+    link: "http://tool.chacuo.net/svgeditor",
   },
   {
     image: IP1Img,
@@ -282,5 +290,10 @@ export const onlineToolLinks = [
     image: QiuzitiImg,
     title: "WeChat Sans SS-Medium-免费字体下载-求字体网",
     link: "https://www.qiuziti.com/download?id=c33f5de2194caba6ccc49e405002225b",
+  },
+  {
+    image: PngCompressionImg,
+    title: "PNG压缩工具",
+    link: "https://www.xunjietupian.com/png-compression/",
   },
 ];
